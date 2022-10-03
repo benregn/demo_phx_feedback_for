@@ -1,5 +1,18 @@
 # MyApp
 
+## Repro
+
+1. Go to `/users`
+1. Click "New user"
+1. Without touching any form fields, click "Save"
+1. Inspect error tag spans, there are non with the `phx-no-feedback` class
+
+### Walkthrough
+
+https://user-images.githubusercontent.com/206066/193598106-4bf45040-50a4-43ec-967f-8b5608d1c17c.mov
+
+## Phoenix 
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
